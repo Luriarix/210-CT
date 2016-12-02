@@ -17,8 +17,6 @@ int main()
 		cout << "Congrats it is somewhere (no idea where) in there (and you don't need to know where) (TOP SECRET)." << endl;
 	else if (binary(myList, 0, 9, low, high) == false) //if false try again
 		cout << "Better luck next time.";
-	else if (low > 16)// just in case someone wants to go too high
-		cout << "Sorry 16 was the last value in the list.(P.S. The list isn't long)";
 }
 
 bool binary(int myList[], int head, int tail, int low, int high)
